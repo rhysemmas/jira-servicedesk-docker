@@ -21,8 +21,8 @@ RUN apk update --quiet \
 COPY entrypoint.sh              			/entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-ARG JIRA_VERSION=8.0.0
-ARG DOWNLOAD_URL=https://product-downloads.atlassian.com/software/jira/downloads/atlassian-jira-software-${JIRA_VERSION}.tar.gz
+ARG JIRA_SD_VERSION=4.1.0
+ARG DOWNLOAD_URL=https://product-downloads.atlassian.com/software/jira/downloads/atlassian-servicedesk-${JIRA_SD_VERSION}.tar.gz
 
 RUN mkdir -p                             ${JIRA_INSTALL_DIR} \
     && curl -L                           ${DOWNLOAD_URL} | tar -xz --strip-components=1 -C "${JIRA_INSTALL_DIR}" \
