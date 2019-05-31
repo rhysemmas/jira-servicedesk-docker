@@ -1,0 +1,40 @@
+{
+    "image": "rhysemmas/jira-servicedesk-docker:ojdk8-alpine",
+    "unapproved": [
+        "CVE-2019-2426",
+        "CVE-2019-2422",
+        "CVE-2018-11212"
+    ],
+    "vulnerabilities": [
+        {
+            "featurename": "openjdk8",
+            "featureversion": "8.191.12-r0",
+            "vulnerability": "CVE-2019-2426",
+            "namespace": "alpine:v3.9",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-2426",
+            "severity": "Medium",
+            "fixedby": "8.201.08-r0"
+        },
+        {
+            "featurename": "openjdk8",
+            "featureversion": "8.191.12-r0",
+            "vulnerability": "CVE-2019-2422",
+            "namespace": "alpine:v3.9",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-2422",
+            "severity": "Medium",
+            "fixedby": "8.201.08-r0"
+        },
+        {
+            "featurename": "openjdk8",
+            "featureversion": "8.191.12-r0",
+            "vulnerability": "CVE-2018-11212",
+            "namespace": "alpine:v3.9",
+            "description": "",
+            "link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11212",
+            "severity": "Medium",
+            "fixedby": "8.201.08-r0"
+        }
+    ]
+}
